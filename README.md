@@ -14,36 +14,24 @@ The Amazon Laptop Price Prediction Tool is a machine learning based application 
 Follow these steps to set up and run the application:
 
 1. **Clone the Repository**
-
     ```bash
-    git clone git@github.com:abdullahashfaq-ds/Amazon-Laptop-Price-Prediction.git
+    git clone https://github.com/Pushpa-127/Amazon-Laptop-Price-Prediction.git
     cd Amazon-Laptop-Price-Prediction
     ```
 
 2. **Create and Activate a Virtual Environment**
-
-    For Linux/Mac:
-
     ```bash
     python -m venv venv
-    source venv/bin/activate
-    ```
-
-    For Windows:
-
-    ```bash
-    python -m venv venv
-    venv\Scripts\activate
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
     ```
 
 3. **Install Dependencies**
-
     ```bash
     pip install -r requirements.txt
     ```
 
 4. **Run the Streamlit Application**
-
     ```bash
     streamlit run app.py
     ```
